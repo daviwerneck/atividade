@@ -3,7 +3,7 @@
     margin: 0;
 }
 :root {
-    --blue: dodgerblue;
+    --blue: blue;
     --black: #000000;
     --white: #ffffff;
 }
@@ -47,6 +47,18 @@ header nav a{
     font-size: x-large;
 }
 
-nav a:hover {
+header nav a:hover {
     font-weight: bold;
+}
+
+main {
+    font-size: x-large;
+    min-height: calc(100vh - 11rem);
+    margin: 1.5rem;
+}
+
+footer{
+    height: 3rem;
+    background-color: var(--blue);
+
 }
