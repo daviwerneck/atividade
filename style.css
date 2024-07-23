@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+:root {
+    --blue: dodgerblue;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+header{
+    background-image: url(banner.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    font-size: 2rem;
+}
