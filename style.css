@@ -23,7 +23,7 @@ header div h1{
     color: var(--white);
 }
 
-.Title{
+.title{
     display: flex;
     background-image: url("banner.jpeg");
     justify-content: space-around;
@@ -52,13 +52,41 @@ header nav a:hover {
 }
 
 main {
-    font-size: x-large;
+    font-size: 1.3rem;
     min-height: calc(100vh - 11rem);
     margin: 1.5rem;
+}
+
+.titulo_curso {
+    display: flex;
+    justify-content: center;;
+}
+
+main div{
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+main div h2{
+    margin-bottom: 1.5rem;
+}
+
+.campo ol li{
+    padding: 5px;
+}
+
+table, tr, thead, td{
+    border: 1px solid var(--black);
+    border-collapse: collapse;
+    margin: 2rem;
 }
 
 footer{
     height: 3rem;
     background-color: var(--blue);
+    color: #ffffff;
+}
 
+.copy{
+    font-size: 2rem;
 }
