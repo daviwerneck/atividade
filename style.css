@@ -110,6 +110,11 @@ div.pergunta a{
     border: 2rem;
 }
 
+div.pergunta li{
+    padding: 0.5rem 0;
+}
+
+
 p.resposta{
     display: grid;
     font-size: 1.5rem;
