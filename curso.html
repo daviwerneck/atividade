@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="title">
@@ -21,17 +23,96 @@
 
     <main>
         <span class="titulo_curso">Curso</span>
-        <thead>
-            <td><b>Área</b></td>
-            <td><b>Ano</b></td>
-            <td><b>Disciplina</b></td>
-            <td><b>1a Série</b></td>
-            <td><b>2a Série</b></td>
-            <td><b>3a Série</b></td>
-        </thead>
-        <tr>
-            <td><b>PARTE ESPECÍFICA</b></td>
-        </tr>
+        <table>
+            <thead>
+                <td><b>Área</b></td>
+                <td><b>Ano</b></td>
+                <td><b>Disciplina</b></td>
+                <td><b>1a Série</b></td>
+                <td><b>2a Série</b></td>
+                <td><b>3a Série</b></td>
+            </thead>
+            <tr>
+                <td colspan="6"><b>PARTE ESPECÍFICA</b></td>
+            </tr>
+            <tr>
+                <th rowspan="11">Técnica</th>
+                <th rowspan="3">1o ano</th>
+                <td class="materia">Banco de Dados</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td class="materia">Fundamentos de Informática</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td class="materia">Programação I</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th rowspan="4">2o ano</th>
+                <td class="materia">Aplicações Web I</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td class="materia">Estrutura de Dados</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td class="materia">Programação II</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td class="materia">Redes de Computadores</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th rowspan="4">3o ano</th>
+                <td class="materia">Aplicações Web II</td>
+                <td>0</td>
+                <td>0</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td class="materia">Aplicações Móveis</td>
+                <td>0</td>
+                <td>0</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td class="materia">Engenharia de Software</td>
+                <td>0</td>
+                <td>0</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td class="materia">Montagem e Manutenção de Computadores</td>
+                <td>0</td>
+                <td>0</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th colspan="3">Total</th>
+                <th>8</th>
+                <th>12</th>
+                <th>16</th>
+            </tr>
+
+        </table>
 
     </main>
 
@@ -39,6 +120,7 @@
         <div class="copy">&copy; copyleft</div>
     </footer>
 
-    
+
 </body>
+
 </html>

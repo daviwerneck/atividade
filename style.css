@@ -75,10 +75,16 @@ main div h2{
     padding: 5px;
 }
 
-table, tr, thead, td{
+table, tr, th, thead, td{
+    width: max-content;
     border: 1px solid var(--black);
     border-collapse: collapse;
+    padding:0.1rem;
     margin: 2rem;
+}
+
+.materia {
+    text-align: left;
 }
 
 footer{
