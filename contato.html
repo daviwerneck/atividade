@@ -22,7 +22,47 @@
     </header>
     
     <main>
-        
+        <form action="" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Contato</legend>
+                <div>
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" id="nome" placeholder="João">
+                </div>
+                <div>
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="email" id="nome" placeholder="Estudante@cefet.com">
+                </div>
+                <div>
+                    <input type="radio" name="sexo" value="M" id="masculino">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="sexo" value="F" id="feminino">
+                    <label for="feminino">Feminino</label>
+                </div>
+                <div>
+                    <label for="estado">Estado/Cidade</label>
+                    <select name="estado" id="estado">
+                        <option value=""></option>
+                        <option value="MG">MG</option>
+                        <option value="RJ">RJ</option>
+                        <option value="SP">SP</option>
+                    </select>
+                    <input type="text" name="cidade" placeholder="Varginha">
+                </div>
+                <div>
+                    <label for="arquivo">Selecione um arquivo </label>
+                    <input type="file" name="arquivo" id="arquivo">
+                </div>
+                <div>
+                    <label for="sugestao">Sugestão</label>
+                </div>
+                    <textarea name="sugestao" id="sugestao" cols="50" rows="5"></textarea>
+                <div class="botoes">
+                    <button class="botao1" type="submit">Enviar</button>
+                    <button class="botao2" type="reset">Limpar</button>
+                </div>
+            </fieldset>
+        </form>
 
     </main>
 

@@ -57,6 +57,18 @@ main {
     margin: 1.5rem;
 }
 
+/* Footer */
+
+footer{
+    height: 3rem;
+    background-color: var(--blue);
+    color: #ffffff;
+}
+
+.copy{
+    font-size: 2rem;
+}
+
 /* Curso */
 
 .curso {
@@ -70,7 +82,7 @@ main div{
 }
 
 main div h2{
-    margin-bottom: 1.5rem;
+   margin-bottom: 1.5rem;
 }
 
 .campo ol li{
@@ -120,14 +132,58 @@ p.resposta{
     font-size: 1.5rem;
     margin-top: 0.5rem;
 }
-/* Footer */
 
-footer{
-    height: 3rem;
-    background-color: var(--blue);
-    color: #ffffff;
+/* Contato */
+
+fieldset{
+    width: fit-content;
+    height: fit-content;
+    flex-direction: column;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
 }
 
-.copy{
-    font-size: 2rem;
+fieldset div{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+textarea{
+    border: 1px solid gray;
+    margin-bottom: 1rem;
+}
+
+div.botoes{
+    display:flex;
+    align-items: center;
+}
+
+button{
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-style: outset;
+    padding: 2px;
+    font-size: 20px;
+    height: 90px;
+    width: 90px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-bottom: 5px;
+    margin: 5px;
+}
+button:hover{
+    background-color: dodgerblue;
+}
+button:active{
+    box-shadow: 0 0 2px darkslategray;
+    transform: translateY(2px);
+}
+.botao1{
+    border-radius: 50%;
+}
+.botao2{
+    border-radius: 50%;
 }
